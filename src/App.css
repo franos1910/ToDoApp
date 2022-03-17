@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+body{
+    min-height: 100vh;
+background: rgb(180,22,178);
+background: linear-gradient(90deg, rgba(180,22,178,1) 10%, rgba(28,98,112,1) 91%);
+}
+.Cards{
+    margin-top:40px;
+    display: flex;
+    height: auto;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+}
+.App{
+    display: flex;
+   justify-content: center;
+}
+header{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+}
